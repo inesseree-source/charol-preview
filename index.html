@@ -208,9 +208,9 @@ body {
 }
 .hero-title {
   font-family: var(--serif);
-  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
   font-weight: 300; font-style: italic;
-  line-height: 1.55; color: rgba(242,238,233,0.82); margin-bottom: 1rem;
+  line-height: 1.45; color: rgba(242,238,233,0.92); margin-bottom: 1.2rem;
 }
 .hero-lugar {
   font-family: var(--sans);
@@ -257,32 +257,7 @@ body {
   color: rgba(242,238,233,0.28); writing-mode: vertical-rl;
 }
 
-/* ══════════════════
-   TIENDA BANDA
-══════════════════ */
-.tienda-banda {
-  background: var(--negro); padding: 2.4rem 6vw;
-  display: flex; align-items: center;
-  justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
-}
-.tienda-banda h2 {
-  font-family: var(--serif);
-  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
-  font-weight: 300; font-style: italic; color: #FAF8F5; line-height: 1.2;
-}
-.tienda-banda p {
-  font-size: 0.73rem; font-weight: 300;
-  color: rgba(242,238,233,0.42); margin-top: 0.2rem;
-}
-.btn-banda {
-  font-family: var(--sans); font-size: 0.7rem; font-weight: 500;
-  letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--negro); background: #FAF8F5;
-  padding: 1rem 2.2rem; text-decoration: none;
-  border: 1.5px solid #FAF8F5;
-  transition: background 0.22s, color 0.22s; white-space: nowrap; flex-shrink: 0;
-}
-.btn-banda:hover { background: transparent; color: #FAF8F5; }
+
 
 /* ══════════════════
    UTILS
@@ -706,9 +681,9 @@ footer {
   <div class="hero-inner">
     <p class="hero-brand-name">CHÁROL</p>
     <h1 class="hero-title">
-      Ropa No Gender &amp; Accesorios<br>
+      Ropa No Gender y Accesorios<br>
       Diseños con estampas propias<br>
-      Producción artesanal &amp; limitada
+      Producción artesanal y limitada
     </h1>
     <p class="hero-lugar">Hecho en La Plata, Argentina</p>
     <div class="hero-actions">
@@ -719,16 +694,7 @@ footer {
   <div class="hero-scroll"><div class="hbar"></div><span>scroll</span></div>
 </section>
 
-<!-- ══ TIENDA BANDA ══ -->
-<div class="tienda-banda">
-  <div>
-    <h2>Toda la colección disponible online</h2>
-    <p>Remerones, camisas, buzos, totebags y más · Envíos a todo el país</p>
-  </div>
-  <a href="https://www.charol.com.ar" target="_blank" rel="noopener" class="btn-banda">
-    Ir a charol.com.ar →
-  </a>
-</div>
+
 
 <!-- ══ SOBRE ══ -->
 <section class="sobre" id="sobre">
@@ -762,6 +728,24 @@ footer {
           Ver fechas
         </a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ VALORES / MANIFIESTO ══ -->
+<section class="valores">
+  <div class="si">
+    <div class="val-head rev">
+      <span class="lbl">Quiénes somos</span>
+      <h2>Diseño independiente,<br>producción consciente</h2>
+    </div>
+    <div class="val-grid">
+      <div class="val-item rev"><div class="val-n">01</div><h3>Identidad propia</h3><p>Creamos productos que reflejan nuestros valores e intereses.</p></div>
+      <div class="val-item rev d1"><div class="val-n">02</div><h3>Estampas propias</h3><p>Diseñamos las estampas de nuestras colecciones con imágenes propias, a partir de la fotografía y el collage.</p></div>
+      <div class="val-item rev d2"><div class="val-n">03</div><h3>Producción consciente</h3><p>Buscamos mantener un equilibrio entre la producción y la demanda, promoviendo la reducción de desperdicios.</p></div>
+      <div class="val-item rev"><div class="val-n">04</div><h3>Trabajo en red</h3><p>Promovemos el trabajo en red entre artistas, productoras, costureras y diseñadoras.</p></div>
+      <div class="val-item rev d1"><div class="val-n">05</div><h3>No Gender</h3><p>Diseñamos para cuerpos reales, en variedad de talles, sin distinción de género.</p></div>
+      <div class="val-item rev d2"><div class="val-n">06</div><h3>Local</h3><p>Hecho en La Plata.</p></div>
     </div>
   </div>
 </section>
