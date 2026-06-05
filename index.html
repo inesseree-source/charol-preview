@@ -372,15 +372,18 @@ body {
   transition: width 0.9s ease;
 }
 .paso.in .paso-barra { width: 100%; }
-.paso-n {
-  font-family: var(--serif); font-size: 3.8rem;
-  font-weight: 300; color: rgba(30,28,26,0.07);
-  line-height: 1; margin-bottom: 1rem;
-}
+
 .paso h3 {
-  font-family: var(--sans); font-size: 0.58rem; font-weight: 500;
-  letter-spacing: 0.2em; text-transform: uppercase;
-  color: var(--negro); margin-bottom: 0.6rem; opacity: 0.6;
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--negro);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 1;
 }
 .paso p {
   font-size: 0.84rem; font-weight: 300;
